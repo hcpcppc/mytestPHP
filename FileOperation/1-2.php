@@ -58,14 +58,14 @@ file_get_contents(path,include_path,context,start,max_length);
 
 /**
  * 写入文件
-    参数	描述
-    file	必需。规定要写入数据的文件。如果文件不存在，则创建一个新文件。
-    data	必需。规定要写入文件的数据。可以是字符串、数组或数据流。
-    mode	可选。规定如何打开/写入文件。可能的值：
-            FILE_USE_INCLUDE_PATH
-            FILE_APPEND
-            LOCK_EX
-    context	可选。规定文件句柄的环境。context 是一套可以修改流的行为的选项。
+ *   参数	描述
+ *   file	必需。规定要写入数据的文件。如果文件不存在，则创建一个新文件。
+ *   data	必需。规定要写入文件的数据。可以是字符串、数组或数据流。
+ *   mode	可选。规定如何打开/写入文件。可能的值：
+ *           FILE_USE_INCLUDE_PATH
+ *           FILE_APPEND
+ *           LOCK_EX
+ *   context	可选。规定文件句柄的环境。context 是一套可以修改流的行为的选项。
  */
 file_put_contents(file,data,mode,context);
 
